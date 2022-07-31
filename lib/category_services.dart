@@ -24,9 +24,9 @@ class Rows {
 
   Future<List<Items>> takeThirdItems() async {
     var thirdItemList = <Items>[];
-    var i1 = Items(itemId: 1, image: "assets/images/cats_and_soup.png", icon: "assets/icons/icon_cats.png", title: "Kediler ve Çorba", type: "Simulation", star: 4.8, priceOrSize: "61MB");
+    var i1 = Items(itemId: 1, image: "assets/images/cats_and_soup.png", icon: "assets/icons/icon_cats.png", title: "Cats and Soup", type: "Simulation", star: 4.8, priceOrSize: "61MB");
     var i2 = Items(itemId: 2, image: "assets/images/magnus.png", icon: "assets/icons/icon_magnus.png", title: "Magnus Trainer - Sat...", type: "Simulation", star: 3.9, priceOrSize: "85MB");
-    var i3 = Items(itemId: 3, image: "assets/images/dead_cells.png", icon: "assets/icons/icon_dead_cells.png", title: "Dead Cells", type: "Action * Basit", star: 3.7, priceOrSize: "₹169.99");
+    var i3 = Items(itemId: 3, image: "assets/images/dead_cells.png", icon: "assets/icons/icon_dead_cells.png", title: "Dead Cells", type: "Action", star: 3.7, priceOrSize: "₹169.99");
     thirdItemList.add(i1);
     thirdItemList.add(i2);
     thirdItemList.add(i3);
