@@ -1,4 +1,3 @@
-## contenterra_assignment
 ---
 ## Google Playstore UI with Flutter
 
